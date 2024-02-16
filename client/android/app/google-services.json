@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "812195736202",
+    "firebase_url": "https://measurify.firebaseio.com",
+    "project_id": "measurify",
+    "storage_bucket": "measurify.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812195736202:android:586c355e98ec1c3a779b73",
+        "android_client_info": {
+          "package_name": "com.example.mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "812195736202-8ter5lktkrul18t83fhi06hij6rpvs89.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo0j5bmIwzeyfAKGwunhIaJVZT56xDRYs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "812195736202-8ter5lktkrul18t83fhi06hij6rpvs89.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "812195736202-d2il49n95h3qj1hlv8djpoagrp78jhd3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "measurify-test-mobie-app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
