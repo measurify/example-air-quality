@@ -113,7 +113,7 @@ class _MyHomePageState extends State<MyHomePage> {
             gasValues[2] >= constants.ch4Threshold) {
           NotificationService().showNotification(
               title: "Avviso superamento soglia",
-              body: "Un gas ha superato i livelli i soglia!");
+              body: "Un gas ha superato i livelli di soglia!");
         }
 
         if (data.isNotEmpty && data.length >= 60) {
@@ -334,7 +334,7 @@ Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
         gasValues[2] >= constants.ch4Threshold) {
       NotificationService().showNotification(
           title: "Avviso superamento soglia",
-          body: "Un gas ha superato i livelli i soglia!");
+          body: "Un gas ha superato i livelli di soglia!");
     }
   } catch (e) {
     logger.e("Error: $e");
