@@ -41,7 +41,6 @@ Before running the app, ensure you have:
 
 - Firebase project set up with the necessary configurations.
 - Measurify API credentials (username, password, and tenant) configured in `constants.dart`.
-- `google-services.json` file from Firebase added under the `android/app` directory.
 
 ### Features
 
@@ -49,3 +48,11 @@ Before running the app, ensure you have:
 - Integration with the Measurify API for data retrieval and storage.
 - Push notifications for alerting users when gas concentrations exceed predefined thresholds.
 - Time series visualization using Syncfusion charts.
+
+<p align="center">
+  <img width="350" height="263" src="images/push.png" hspace="10">
+  <img width="290" height="400" src="images/main.png" hspace="10">
+</p>
+
+> [!IMPORTANT]  
+> Add `google-services.json` file from Firebase under the `android/app` directory.
