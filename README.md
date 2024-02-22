@@ -26,8 +26,11 @@ Make sure you have the necessary libraries installed:
 1. Configure WiFi settings by updating the `ssid` and `pass` variables.
 2. Adjust server details such as `server` and `port` accordingly.
 3. Set the number of samples per hour (`SAMPLES_PER_HOUR`) and sensor pre-heat time (`PRE_HEAT_TIME`) as needed.
-4. Change the token inside `postData` function. 
-4. Run the sketch on your Arduino board and observe the gas concentration readings on the Serial Monitor.
+4. Change the Measurify credentials inside `postData` function.
+5. Run the sketch on your Arduino board and observe the gas concentration readings on the Serial Monitor.
+
+> [!TIP]
+> Ensure a maximum of 60 samples per hour and a pre-heat time of 5 minutes for optimal performance.
 
 ## Client Part
 
